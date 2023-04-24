@@ -11242,3 +11242,17 @@ html {
   margin-top: 10px;
   margin-left: 1rem;
 }
+
+
+@media (max-width: 431px) {
+  html {
+    font-size: 55%;
+  }
+  .portfolio-modal .btn-close {
+    width: 20rem;
+    right: 50rem;
+  }
+  .card-body {
+    width: 8rem;
+  }
+}
